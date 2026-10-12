@@ -1,0 +1,22 @@
+﻿# Dependencies
+**/node_modules/
+node_modules/
+mobile/node_modules/
+admin-dashboard/node_modules/
+
+# Build outputs
+**/dist/
+dist/
+mobile/dist/
+admin-dashboard/dist/
+
+# Python Virtual Environments & Caches
+venv/
+.venv/
+**/__pycache__/
+*.pyc
+
+# Local databases & logs
+pulseband.db
+*.log
+.env
